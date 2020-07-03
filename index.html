@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/logo3.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@400;600&family=Sacramento&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-sm nav-color  navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand " href="#"> <img class="logo" src="image/logo3.png"><span class="shopy">Shopy</span></a>
+        
+            <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                
+                <ul class="navbar-nav nav-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+    
+        
+            <!-- Dropdown -->
+                    <li class="nav-item dropdown drop-right">
+                        <a class="nav-link drop-right-mobile" href="#" id="navbardrop" data-toggle="dropdown">
+                        <img src="image/u2.png"/>
+                        </a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Setting</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+</nav>
+    
+    
+<div class="container ">
+    <!-- Sticky Search Bar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
+        <img class="d-none d-md-block" src="image/cart.png"/>
+        <form class="form-inline search-center" action="/action_page.php">
+             <input class="form-control mr-sm-2" type="text" placeholder="Search">
+             <button class="btn btn-success btn-float" type="submit">Search</button>
+        </form>
+    </nav>
+    
+    <!-- Filter row -->
+    
+    <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+            <div class="filter">
+            <p class="drop-p">Filters</p>
+            <div class="dropdown">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                Click Me
+                </button>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">F 1</a>
+                <a class="dropdown-item" href="#">F 2</a>
+                <a class="dropdown-item" href="#">F 3</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- products row 1 -->
+    <div class="row">
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                <img class="card-img-bottom" src="image/vegetables.jpg" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Vegetables</h4>
+                <p class="card-text">Pure Out Of The Fields</p>
+                <a href="#" class="btn btn-secondary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+        
+                <div class="card " >
+                    <img class="card-img-bottom" src="image/Meat-Poultry.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Meat & Poultry</h4>
+                    <p class="card-text">Pure Out Of The Farms</p>
+                    <a href="#" class="btn btn-secondary">Buy Now</a>
+                    </div>
+                </div>
+        
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                    <img class="card-img-bottom" src="image/Fruits.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Fruits Items</h4>
+                    <p class="card-text">Pure Out Of The Farms</p>
+                    <a href="#" class="btn btn-secondary">Buy Now</a>
+                    </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                <img class="card-img-bottom" src="image/Beverages.jpg" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Beverages</h4>
+                <p class="card-text">Juices and Drinks </p>
+                <a href="#" class="btn btn-secondary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- products row 2 -->
+
+    <div class="row ">
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                <img class="card-img-bottom" src="image/baking-Cooking.jpg" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Baking & Cooking</h4>
+                <p class="card-text">Pure Out Of The Fields</p>
+                <a href="#" class="btn btn-secondary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+        
+
+                <div class="card" >
+                    <img class="card-img-bottom" src="image/bread-bakery.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Bread & Bakery</h4>
+                    <p class="card-text">Freash Out Of Bakery</p>
+                    <a href="#" class="btn btn-secondary">Buy Now</a>
+                    </div>
+                </div>
+        
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                    <img class="card-img-bottom" src="image/Food-Staples.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title">Foods & Staples  </h4>
+                    <p class="card-text">Pure & Freash Items</p>
+                    <a href="#" class="btn btn-secondary">Buy Now</a>
+                    </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6 row-design">
+
+            <div class="card" >
+                <img class="card-img-bottom" src="image/Dairy.jpg" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Dairy & Products</h4>
+                <p class="card-text">Pure Dairy Products </p>
+                <a href="#" class="btn btn-secondary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-end" style="margin:20px 0">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</div>
+
+<!-- footer -->
+<footer>
+    <p class="footer-design">
+        Copyright @2020 All Rights Reserved.
+    </p>
+</footer>
+
+</body>
+</html>
